@@ -3,6 +3,16 @@ logging:
   level:
     org:
       springframework: ERROR
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/nelumbusDB
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: update
 eureka:
   client:
     service-url:
