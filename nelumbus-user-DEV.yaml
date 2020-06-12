@@ -1,0 +1,17 @@
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+  contextPath: /nelumbus-user
+spring:
+  application:
+    name: nelumbus-user
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/nelumbusDB
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: update
