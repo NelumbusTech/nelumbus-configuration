@@ -1,1 +1,18 @@
-
+server:
+  port: 8084
+  contextPath: /nelumbus-skill
+spring:
+  application:
+    name: nelumbus-skill
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/nelumbus_db
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    generate-ddl: true
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: update
