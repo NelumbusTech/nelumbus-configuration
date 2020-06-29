@@ -1,3 +1,4 @@
 server:
   port: 8086
-  contextPath: /nelumbus-roles
+  servlet:
+    contextPath: /nelumbus-roles
