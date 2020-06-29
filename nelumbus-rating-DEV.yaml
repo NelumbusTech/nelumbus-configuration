@@ -1,18 +1,4 @@
 server:
   port: 8083
-  contextPath: /nelumbus-rating
-spring:
-  application:
-    name: nelumbus-rating
-  datasource:
-    driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/nelumbus_db
-    username: root
-    password: root
-  jpa:
-    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
-    generate-ddl: true
-    show-sql: true
-    properties:
-      hibernate:
-        ddl-auto: update
+  servlet:
+    contextPath: /nelumbus-rating
