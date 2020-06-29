@@ -5,9 +5,7 @@ logging:
 spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://nelumbusdb1.cdwwk3jnhvz5.ap-south-1.rds.amazonaws.com/nelumbusdb
-    username: nelumbus
-    password: nelumbus123
+    url: jdbc:mysql://nelumbusdb1.cdwwk3jnhvz5.ap-south-1.rds.amazonaws.com/nelumbusdb    
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     generate-ddl: true
