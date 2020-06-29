@@ -7,7 +7,7 @@ spring:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/nelumbus_db
     username: root    
-    password: {cipher}7b3488ca6fdd0b29b4f8860ac45a8348698b099acbddbcbb969ed16c5f998b27
+    password: '{cipher}'7b3488ca6fdd0b29b4f8860ac45a8348698b099acbddbcbb969ed16c5f998b27
   jpa:
     generate-ddl: true
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
