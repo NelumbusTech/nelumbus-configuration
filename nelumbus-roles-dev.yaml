@@ -1,7 +1,7 @@
-
 server:
   port: 8086
-  contextPath: /nelumbus-roles
+  servlet:
+    contextPath: /nelumbus-roles
 spring:
   application:
     name: nelumbus-roles
