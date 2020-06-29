@@ -18,4 +18,4 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:2222/eureka
+      defaultZone: http://ec2-15-206-149-36.ap-south-1.compute.amazonaws.com:2222/eureka
